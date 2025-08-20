@@ -39,7 +39,7 @@ export default function Page() {
       <button className="bg-gray-200 p-2 mb-5" onClick={() => getData(city)}>
         データを取得
       </button>
-      <h1>場所:{city}</h1>
+      <h1>ばしょ:{city}</h1>
       <p>天気:{data}</p>
       <p>気温:{temp}</p>
       <img
